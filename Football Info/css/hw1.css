@@ -1,0 +1,122 @@
+
+
+header
+{
+	text-align: center;
+	
+	background-image: url("https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+        background-color: #7FFFD4; 
+        background-size : 100%;
+        padding-top : 0.5%;
+        padding-bottom : 4%;
+}   
+
+h1{
+	font-size : 150%;
+	text-align: center;
+	color:#FFFFFF;
+	text-transform: uppercase;
+	border : none;
+}
+
+nav a{
+	
+	
+	width: 14%;
+	
+	display:inline-block;
+	background: #FFFFFF;
+	padding: 1%;
+	color:#000000;
+	text-decoration: none;
+	border-radius: 5px;
+	vertical-align : top;
+	background-color: rgba(255,255,255,0.3);
+	margin : 2%;
+	margin-top : 0%;
+}
+
+.active{
+
+	background-color: #FFFFFF;
+}
+
+
+.right{
+	display: inline-block; 
+	float:right;
+	margin-right: 13%;
+	width:70%;
+	font-size:120%;
+	position : absolute;
+}
+
+img{
+	width: 150px;
+	display: flex;
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.left{
+	background:#808000;
+	display: inline-block;
+	padding: 22px;
+	padding-bottom: 150px;
+}
+main
+
+
+body{
+	padding: 12px;
+	margin: 2px;
+} 
+/*table with atleast 4 properties*/ 
+table 
+{
+	border-collapse: collapse;
+   	width: 550px;
+   	background-color : #dcdcdc; /*backup background*/
+   	margin-left : 16%;
+   	font-size: 80%;
+	font-family : calibri;	
+}
+/*border,backgroundcolor and atleast one property*/
+th
+{
+	background-color : #B2C248;
+	border : 2px solid #FFFFFF;
+	color : #FFFFFF;
+}
+tr
+{
+	border : 2px solid #FFFFFF;
+	text-align : center;
+	color : #808080;
+	background : #E4FFC9;
+}
+/* one more element in table , td and th*/
+table, td, th {
+	    
+	    padding: 1%;
+	}
+/*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+tr th:first-child , tr td:first-child
+{
+	text-align : left;
+}
+/* Set the opacity of the table rows to a value between .6 and .8*/
+tr td {
+		opacity: 0.7;
+		border : 2px solid #FFFFFF;
+		cursor : pointer;
+
+	}
+/*Change the opacity of a row when it is hovered over*/
+tr td:hover
+{
+	opacity : 2.5;
+	text-align : center;
+	font-size : 120%;
+}
+/*The table elements <td> should be styled using at least four properties(my <td> has 7 properties)*/
